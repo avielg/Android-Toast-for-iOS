@@ -6,10 +6,10 @@ All the normal settings (size, color. margin etc...) can be changed via the h fi
 
 To use it define a new <tt>Toast</tt> object with <tt>toastWithMessage:</tt> method (no alloc init needed), then call <tt>showOnView:</tt> from the Toast object.
 Example:
-<br><tt>
- Toast *mToast = [Toast toastWithMessage:@"Let's have a toast"];<br>
- [mToast showOnView:self.view];
-</tt>
+
+    Toast *mToast = [Toast toastWithMessage:@"Let's have a toast"];<br>
+    [mToast showOnView:self.view];
+
 
 
 This is my first rep on git, feel free to comment, fork, and crit (:
